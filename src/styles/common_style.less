@@ -1,0 +1,93 @@
+/*页面title区域*/
+.op-button-area{
+    position: absolute;
+    top: 8px;
+    left: 140px;
+}
+
+/*提示文字样式*/
+.message-title{
+    &-gray{
+        color:#bbbec4;
+    }
+    &-red{
+        color:red;
+    }
+}
+
+/*表格部分*/
+.ivu-table-row-highlight td{
+    background-color: #8bbef5!important
+}
+.ivu-table .row-disabled td,.ivu-table .row-disabled td a {
+    color : #999;
+}
+
+.table-alink {
+    margin : 0 5px;
+}
+
+/*查询表单部分*/
+
+/*查询按钮*/
+.op-btns{
+    padding: 6px 25px;
+}
+.op-btns.resetbtn{
+    margin-left: 8px;
+}
+.one-row{
+    line-height: 45px;
+}
+.date-choose-area {
+    display: inline-block;
+}
+
+.all-options-area {
+    width: 100%;
+    display: flow-root;
+}
+
+.one-option{
+    float: left;
+}
+@media screen and (max-width: 1200px) {
+    .one-option {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .one-option {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1700px) {
+    .one-option {
+        width: 33.33%;
+    }
+}
+
+/*分页部分*/
+.page-num-area {
+    margin: 10px;
+    overflow: hidden;
+}
+
+
+
+/*新增修改删除查看页面*/
+.form-option{
+    &-input{
+        width: 250px;
+    }
+    &-select{
+        width: 250px;
+    }
+    &-textarea{
+        width: 80%;
+
+        textarea{
+            height: 100px;
+        }
+    }
+}

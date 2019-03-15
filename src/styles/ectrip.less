@@ -1,0 +1,244 @@
+
+/*main页面-title*/
+.ivu-card-head-inner, .ivu-card-head p {
+    height: auto;
+    line-height: auto;
+    font-size: 16px;
+}
+.main_picker{
+    width: 100%;
+    // display: flow-root;
+    &:after{
+        content: " ";
+        display: block;
+        font-size: 0;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+}
+
+/*main_picker*/
+@media screen and (min-width:1700px){
+    .float_option{
+        float: left;
+        // padding: 0px 20px;
+        // margin-bottom: 24px;
+        width: 33.33%;
+    }
+    .float_option_big{
+        float: left;
+        // padding: 0px 20px;
+        // margin-bottom: 24px;
+        width: 100%;
+    }
+    .float_option_66{
+        float: left;
+        // padding: 0px 20px;
+        // margin-bottom: 24px;
+        width: 66.67%;
+    }
+    .float_option_50{
+        float: left;
+        // padding: 0px 20px;
+        // margin-bottom: 24px;
+        width: 50%;
+    }
+    .float_option_small{
+        float: left;
+        // padding: 0px 20px;
+        // margin-bottom: 24px;
+        width: 15%;
+    }
+}
+@media screen and (min-width:1200px) and (max-width:1700px){
+    .float_option{
+        float: left;
+        // padding: 0px 20px;
+        // margin-bottom: 24px;
+        width: 50%;
+    }
+    .float_option_big{
+        float: left;
+        // padding: 0px 20px;
+        // margin-bottom: 24px;
+        width: 100%;
+    }
+    .float_option_66{
+        float: left;
+        // padding: 0px 20px;
+        // margin-bottom: 24px;
+        width: 66.67%;
+    }
+    .float_option_50{
+        float: left;
+        // padding: 0px 20px;
+        // margin-bottom: 24px;
+        width: 100%;
+    }
+}
+@media screen and (max-width:1200px){
+    .float_option{
+        float: left;
+        // padding: 0px 20px;
+        // margin-bottom: 24px;
+        width: 100%;
+    }
+    .float_option_big{
+        float: left;
+        // padding: 0px 20px;
+        // margin-bottom: 24px;
+        width: 100%;
+    }
+    .float_option_50{
+        float: left;
+        // padding: 0px 20px;
+        // margin-bottom: 24px;
+        width: 100%;
+    }
+}
+
+/*分页*/
+.page_content{
+    width: 100%;
+    margin: 1.5% auto 0;
+    /* overflow: hidden; */
+    position: relative;
+    height: 35px;
+}
+.page_show{
+    // position: absolute;
+    // left: 50%;
+    // top: 50%;
+    // transform: translate(-50%, -50%);
+    text-align: right;
+    height: 35px;
+    line-height: 35px
+}
+.page_button{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center
+    // float: right;
+}
+.show_span{
+    font-size: 16px;
+    padding: 0 2px;
+}
+
+/*form表单相关*/
+.form{
+    &-input{
+        width: 200px;
+    }
+    &-main{
+        &-title{
+            margin-bottom: 12px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        &-input{
+            width: 70%;
+        }
+        &-select{
+            width: 31%;
+        }
+        &-area{
+            width: 31%;
+            float: left;
+        }
+    }
+}
+
+.form-option-input{
+    width: 200px;
+}
+.width-1-3{
+    width: 33.3%;
+    float: left;
+}
+
+.f-upload-input{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.op-btns{
+    padding: 6px 25px;
+}
+.op-btns.resetbtn{
+    margin-left: 8px;
+}
+.op-btns.otherBtn{
+    margin-right: 8px;
+}
+
+.message-title{
+    &-gray{
+        color:#bbbec4;
+    }
+    &-red{
+        color:#ed3f14;
+    }
+}
+
+.form-area-title{
+    margin-top: -37px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-area-formItem{
+    margin-top: 48px;
+}
+
+textarea {
+    resize:none;
+}
+
+/*可点击的表格单元格的样式*/
+.hover_span{
+    color: #2d8cf0;
+    transition: color .05s linear;
+    cursor: pointer;
+    &:hover{
+        color: #495060;
+        transition: color .05s linear;
+    }
+}
+
+.ivu-form-item {
+    margin-bottom: 20px !important;
+}
+/*表格禁用行样式*/
+.ivu-table .row-disabled td,.ivu-table .row-disabled td a {
+    color : #999;
+}
+
+/*标题块区域行高*/
+.slot_title_height{
+    height: 32px !important;
+}
+
+/*每个页面的标题*/
+.title_span {
+    display:inline-block;
+    float:left;
+    line-height:32px;
+}
+
+.ivu-spin-fix .ivu-spin-main {
+    top: 300px
+}
+
+
